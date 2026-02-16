@@ -1,307 +1,389 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Servicio de Rehabilitación de Hospitales Universitarios San Roque",
+  logo: "/images/logo.png",
+  tagline: "Rehabilitación integral en Las Palmas de Gran Canaria",
+  description: "El Servicio de Rehabilitación de Hospitales Universitarios San Roque en Las Palmas ofrece tratamientos de fisioterapia y rehabilitación con un equipo médico altamente cualificado. Con 4.7 estrellas en Google y más de 67 reseñas, nuestros pacientes destacan la atención personalizada, profesionalidad y dedicación de nuestro equipo. Utilizamos aparatología de última generación adaptada a cada patología, garantizando procesos de recuperación efectivos en instalaciones limpias y organizadas.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#80bb25",
+    secondary: "#26380b",
+    accent: "#7bb81c",
+    neutral: "#f5faee"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "928 40 40 40",
+  whatsapp: "+34928404040",
+  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de fisioterapia.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "N° 26, C. Dolores de la Rocha, 35001 Las Palmas de Gran Canaria, Las Palmas, España",
+    city: "Las Palmas",
+    province: "Álava",
+    postalCode: "35001",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=5676670185553661965&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Servicio%20de%20Rehabilitaci%C3%B3n%20de%20Hospitales%20Universitarios%20San%20Roque%20%4028.0982%2C-15.4135&z=16&output=embed",
+  coordinates: {
+    lat: 28.0982,
+    lng: -15.4135
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes - viernes",
+      hours: "8:00–22:00"
+    },
+    {
+      days: "sábado - domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
     rating: 4.7,
-    count: 190,
-    url: "#",
+    count: 67,
+    url: "https://maps.google.com/?cid=5676670185553661965&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Vane Gómez",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Agradecida con todo el personal del area de rehabilitación del centro san Roque Vegueta por toda la atención, ayuda  y empeño en mi proceso de rehabilitación. Realizando  especial mención  a mis fisios por su dedicada y cercana labor siempre dispuestos a explicarme con atención y detalle todos los pasos a seguir en pro de mi satisfactoria y sana recuperación, quienes fueron Ruth y Javier  excelentes profesionales, preparados, dedicados y cercanos  a Yaiza técnico auxiliar del centro por su dedicación, vocación de servicio, profesionalidad y amabilidad; igualmente a Carmen en recepción excelente profesional, dedicada\ncerca, atenta y solidaria. La atención 10 de 10.\n\nRecomiendo mucho este centro es bastante limpio y  está bien organizado, utilizan aparatologia de calidad adecuada a cada patología a tratar y tienen a disposición sabanas de uso individual para cada sección manteniendo así la higiene entre paciente y paciente.\n\nNo puedo estar más contenta y agradecida con cada uno de los integrantes de esta área, sigan así!",
+        date: "Hace 8 meses"
       },
       {
-        author: "Javier Padilla",
+        author: "Yuriel Mena vila",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "Encantado con la Atención recibida.  El fisio .Eduardo es un chico muy Amable y implicado con su Trabajo . Le agradezco toda su Ayuda y su Amabilidad. La verdad que me fue muy fácil la rehabilitación con todo su conocimiento y diferentes técnicas,  e salido como nuevo .les recomiendo 100% esta clínica San Roque,  también me gustaría Agracerle  a la chica de recepción que es Estupenda. Súper Amable ,Carmen muchas gracias se agradece la Atención que me vrindastes",
+        date: "Hace 8 meses"
       },
       {
-        author: "Melanie Ponce",
+        author: "Nerea Ramirez",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Desde aquí quiero dar las gracias al equipo del Servicio de Rehabilitación de Hospitales San Roque de Las Palmas, en especial a Gloria y Sara, quienes me han tratado y me han cuidado de maravilla. Al resto de compañeros que siempre están presentes por si necesitas ayuda y a Carmen, que recibe a cada paciente con una sonrisa. Os deseo lo mejor a todos, GRACIAS !\nUn abrazo.\nNerea Ramírez.",
+        date: "Hace 10 meses"
       },
       {
-        author: "María Teresa Salguero",
+        author: "LIDIA AUYANET",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "Hospital San Roque Las Palmas, deseamos hacer  mención  a la Especialista Médico Rehabilitadora Doctora Patricia Marquez Rodríguez, por su acreditada habilidad médica y su admirable cordialidad al paciente, con riguroso examen medico con valoración de cada patologías e informe integral. La verdad autentica vocación médica.!  #DraPatriciaMarquezRHB #HospitalSanRoqueRHB",
+        date: "Hace 4 meses"
       },
-    ],
+      {
+        author: "victor Gallego",
+        rating: 5,
+        text: "Para empezar,el tanto el servicio administrativo como los propios profesionales de rehabilitación. Son un equipazos,super atentos, cuidadoso.\nSe les nota que les gusta su trabajo,que se esfuerzan en dar la mejor atención. Son la definición del trabajo bien hecho y con cariño.",
+        date: "Hace 10 meses"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "fisioterapia-rehabilitacion",
+      name: "Fisioterapia y Rehabilitación",
+      description: "Programas personalizados de rehabilitación diseñados por nuestros médicos especialistas y ejecutados por fisioterapeutas expertos. Tratamos cada patología de forma individualizada, con seguimiento continuo y técnicas adaptadas a tus necesidades específicas. Nuestro objetivo es tu recuperación completa y funcional.",
+      benefits: [
+        "Planes de tratamiento personalizados según patología",
+        "Seguimiento médico continuo por especialistas",
+        "Técnicas manuales y aparatología de última generación"
+      ],
+      icon: "Activity"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "fisioterapia-manual",
+      name: "Fisioterapia Manual Especializada",
+      description: "Técnicas manuales avanzadas aplicadas por fisioterapeutas certificados para aliviar el dolor, mejorar la movilidad articular y restaurar la función. Nuestro equipo se caracteriza por explicar detalladamente cada paso del tratamiento, asegurando que comprendas tu proceso de recuperación.",
+      benefits: [
+        "Alivio efectivo del dolor musculoesquelético",
+        "Mejora de la movilidad y flexibilidad articular",
+        "Tratamiento de contracturas y tensiones musculares"
+      ],
+      icon: "Hand"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "rehabilitacion-postoperatoria",
+      name: "Rehabilitación Postoperatoria",
+      description: "Recuperación integral tras intervenciones quirúrgicas con protocolos específicos para cada tipo de cirugía. Nuestros especialistas en medicina rehabilitadora diseñan programas que aceleran la recuperación y previenen complicaciones, siempre con atención cercana y profesional.",
+      benefits: [
+        "Recuperación más rápida y segura post-cirugía",
+        "Prevención de adherencias y complicaciones",
+        "Restauración completa de la funcionalidad"
+      ],
+      icon: "Heart"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "electroterapia",
+      name: "Electroterapia y Aparatología",
+      description: "Disponemos de aparatología de calidad de última generación, adecuada y específica para cada patología a tratar. Utilizamos diferentes técnicas de electroterapia para acelerar la recuperación, reducir la inflamación y controlar el dolor de forma efectiva y no invasiva.",
+      benefits: [
+        "Tecnología adaptada a cada patología específica",
+        "Reducción de inflamación y control del dolor",
+        "Aceleración del proceso de recuperación"
+      ],
+      icon: "Zap"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "rehabilitacion-deportiva",
+      name: "Rehabilitación Deportiva",
+      description: "Tratamiento especializado para lesiones deportivas con técnicas avanzadas que permiten el retorno seguro a la actividad física. Nuestro equipo conoce las demandas específicas del deporte y trabaja para que recuperes tu nivel de rendimiento de forma progresiva y segura.",
+      benefits: [
+        "Retorno seguro a la práctica deportiva",
+        "Prevención de recaídas y nuevas lesiones",
+        "Recuperación del rendimiento físico óptimo"
+      ],
+      icon: "Dumbbell"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "valoracion-medica-rehabilitadora",
+      name: "Valoración Médica Rehabilitadora",
+      description: "Examen médico riguroso realizado por nuestros especialistas en medicina física y rehabilitación. Valoramos cada patología de forma integral, elaborando informes completos y diseñando el plan de tratamiento más adecuado para tu recuperación exitosa.",
+      benefits: [
+        "Diagnóstico preciso por médicos especialistas",
+        "Informe integral de tu situación clínica",
+        "Plan de tratamiento personalizado y efectivo"
+      ],
+      icon: "Target"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "tratamiento-patologias-cronicas",
+      name: "Tratamiento de Patologías Crónicas",
+      description: "Abordaje especializado de dolencias crónicas y recurrentes mediante programas de tratamiento a largo plazo. Combinamos diferentes técnicas terapéuticas para mejorar tu calidad de vida, reducir el dolor y recuperar la máxima funcionalidad posible.",
+      benefits: [
+        "Control efectivo del dolor crónico",
+        "Mejora significativa de la calidad de vida",
+        "Programas de mantenimiento personalizados"
+      ],
+      icon: "Activity"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "terapia-manual-avanzada",
+      name: "Terapias Manuales Avanzadas",
+      description: "Aplicación de técnicas especializadas de terapia manual por fisioterapeutas con formación avanzada. Utilizamos diferentes enfoques terapéuticos según las necesidades de cada paciente, siempre explicando con detalle el proceso y los objetivos de cada sesión.",
+      benefits: [
+        "Técnicas especializadas y personalizadas",
+        "Explicación detallada de cada procedimiento",
+        "Resultados visibles y duraderos"
+      ],
+      icon: "Hand"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Solicita tu cita",
+      description: "Contacta con nosotros llamando al 928 40 40 40. Carmen y nuestro equipo de recepción te atenderán con amabilidad y te asignarán una cita con nuestros especialistas en rehabilitación."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Valoración médica especializada",
+      description: "Nuestros médicos rehabilitadores realizarán un examen riguroso de tu patología, valorando tu situación de forma integral. Elaboraremos un informe completo y diseñaremos un plan de tratamiento personalizado adaptado a tus necesidades específicas."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Tratamiento personalizado",
+      description: "Nuestros fisioterapeutas aplicarán las técnicas más adecuadas para tu recuperación, combinando terapia manual con aparatología de calidad. Te explicaremos cada paso del proceso con atención y detalle, asegurándonos de que comprendes tu evolución."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Seguimiento hasta tu recuperación",
+      description: "Acompañamiento continuo durante todo tu proceso de rehabilitación. Nuestro equipo estará siempre disponible para resolver dudas y ajustar el tratamiento según tu evolución, hasta lograr tu recuperación satisfactoria y completa."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Excelencia avalada por pacientes",
+      description: "Con 4.7 estrellas en Google y 67 reseñas, nuestros pacientes destacan la atención personalizada, profesionalidad y dedicación de todo nuestro equipo. La satisfacción de quienes han confiado en nosotros es nuestra mejor carta de presentación.",
+      icon: "Award"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Equipo multidisciplinar experto",
+      description: "Contamos con médicos rehabilitadores, fisioterapeutas especializados y técnicos auxiliares que trabajan de forma coordinada en tu recuperación. Profesionales con vocación de servicio que explican cada paso del tratamiento con atención y cercanía.",
+      icon: "Users"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Tecnología adaptada a cada patología",
+      description: "Disponemos de aparatología de calidad de última generación, específica para cada patología a tratar. Combinamos tecnología avanzada con técnicas manuales especializadas para garantizar los mejores resultados en tu recuperación.",
+      icon: "Zap"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Instalaciones de calidad hospitalaria",
+      description: "Centro limpio, organizado y equipado con los más altos estándares. Utilizamos sábanas de uso individual para cada sesión, manteniendo protocolos rigurosos de higiene. Parte de Hospitales Universitarios San Roque, garantía de excelencia sanitaria.",
+      icon: "Shield"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Dra. Patricia Márquez Rodríguez",
+      role: "Médico Rehabilitadora",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Servicio de Rehabilitación de Hospitales Universitarios San Roque nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
     },
+    {
+      name: "Ruth",
+      role: "Fisioterapeuta",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Servicio de Rehabilitación de Hospitales Universitarios San Roque nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    },
+    {
+      name: "Javier",
+      role: "Fisioterapeuta",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Servicio de Rehabilitación de Hospitales Universitarios San Roque nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    },
+    {
+      name: "Eduardo",
+      role: "Fisioterapeuta",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Servicio de Rehabilitación de Hospitales Universitarios San Roque nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    },
+    {
+      name: "Gloria",
+      role: "Fisioterapeuta",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Servicio de Rehabilitación de Hospitales Universitarios San Roque nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    },
+    {
+      name: "Sara",
+      role: "Fisioterapeuta",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Servicio de Rehabilitación de Hospitales Universitarios San Roque nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    },
+    {
+      name: "Yaiza",
+      role: "Técnico Auxiliar",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Servicio de Rehabilitación de Hospitales Universitarios San Roque nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    },
+    {
+      name: "Carmen",
+      role: "Recepción",
+      image: "/images/team/placeholder.jpg",
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Servicio de Rehabilitación de Hospitales Universitarios San Roque nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/gallery/1.webp",
+      alt: "Servicio de Rehabilitación de Hospitales Universitarios San Roque - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "Servicio de Rehabilitación de Hospitales Universitarios San Roque - Imagen 2"
+    },
+    {
+      src: "/images/gallery/3.webp",
+      alt: "Servicio de Rehabilitación de Hospitales Universitarios San Roque - Imagen 3"
+    },
+    {
+      src: "/images/hero.webp",
+      alt: "Servicio de Rehabilitación de Hospitales Universitarios San Roque - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "Servicio de Rehabilitación de Hospitales Universitarios San Roque - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "Servicio de Rehabilitación de Hospitales Universitarios San Roque - Imagen 6"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Qué tipo de tratamientos ofrece el Servicio de Rehabilitación de San Roque?",
+      answer: "Ofrecemos tratamientos integrales de fisioterapia y rehabilitación para diversas patologías: rehabilitación postoperatoria, lesiones deportivas, dolencias crónicas, problemas musculoesqueléticos y más. Contamos con médicos rehabilitadores, fisioterapeutas especializados y aparatología de última generación adaptada a cada patología. Cada tratamiento es personalizado según las necesidades específicas de cada paciente."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Necesito derivación médica para acudir al servicio de rehabilitación?",
+      answer: "Puedes acudir con derivación de tu médico de cabecera o especialista, o solicitar directamente una valoración con nuestros médicos rehabilitadores. En la primera consulta, nuestros especialistas realizarán un examen completo de tu situación y diseñarán el plan de tratamiento más adecuado. Llama al 928 40 40 40 para informarte sobre tu caso específico."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Cuánto dura un tratamiento de rehabilitación?",
+      answer: "La duración depende de tu patología específica y de tu evolución individual. Tras la valoración médica inicial, te informaremos del número estimado de sesiones necesarias. Nuestro equipo realiza un seguimiento continuo y ajusta el plan de tratamiento según tu progreso, asegurando que cada sesión sea efectiva para tu recuperación completa."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Qué me puedo esperar en mi primera visita?",
+      answer: "En tu primera visita, uno de nuestros médicos rehabilitadores realizará un examen riguroso de tu patología, valorando tu situación de forma integral. Te explicaremos detalladamente tu diagnóstico, el plan de tratamiento propuesto y los objetivos a alcanzar. Nuestro equipo se caracteriza por su atención cercana y por resolver todas tus dudas con paciencia y profesionalidad."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Qué diferencia al Servicio de Rehabilitación de San Roque?",
+      answer: "Contamos con 4.7 estrellas en Google basadas en 67 reseñas de pacientes reales que destacan nuestra atención personalizada, profesionalidad y dedicación. Disponemos de aparatología de calidad adaptada a cada patología, instalaciones limpias y organizadas con sábanas de uso individual. Nuestro equipo multidisciplinar de médicos rehabilitadores, fisioterapeutas y técnicos auxiliares trabaja de forma coordinada en tu recuperación."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Cómo puedo solicitar una cita?",
+      answer: "Puedes solicitar tu cita llamando al 928 40 40 40. Nuestro equipo de recepción te atenderá con amabilidad y te asignará la cita más conveniente según tu disponibilidad y las necesidades de tu caso. Estamos ubicados en Hospitales Universitarios San Roque en Las Palmas de Gran Canaria."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿El tratamiento es doloroso?",
+      answer: "Nuestros fisioterapeutas aplican las técnicas de forma profesional y cuidadosa, adaptando la intensidad a tu tolerancia y situación específica. Te explicaremos cada procedimiento antes de realizarlo y estaremos atentos a tus sensaciones durante todo el tratamiento. El objetivo es tu recuperación de forma progresiva y segura, siempre respetando tus límites y promoviendo tu bienestar."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Qué medidas de higiene mantienen en el centro?",
+      answer: "Mantenemos rigurosos protocolos de higiene y limpieza en todas nuestras instalaciones. Utilizamos sábanas de uso individual para cada sesión, garantizando la higiene entre paciente y paciente. Nuestros pacientes destacan en sus reseñas que somos un centro bastante limpio y bien organizado, con aparatología de calidad que se mantiene en óptimas condiciones."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Servicio de Rehabilitación de Hospitales Universitarios San Roque",
+    defaultTitle: "Rehabilitación y Fisioterapia Las Palmas | San Roque",
+    defaultDescription: "Servicio de Rehabilitación en Las Palmas. Fisioterapia, rehabilitación postoperatoria y tratamientos personalizados. 4.7★ en Google. Hospitales San Roque. Llama 928 40 40 40",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "fisioterapia Las Palmas",
+      "rehabilitación Las Palmas",
+      "Hospitales San Roque rehabilitación",
+      "fisioterapia San Roque Las Palmas",
+      "rehabilitación postoperatoria Las Palmas",
+      "médico rehabilitador Las Palmas",
+      "fisioterapia deportiva Las Palmas",
+      "centro rehabilitación Las Palmas de Gran Canaria",
+      "tratamiento fisioterapia Las Palmas",
+      "electroterapia Las Palmas",
+      "fisioterapeuta Las Palmas",
+      "Servicio Rehabilitación San Roque"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Servicio de Rehabilitación de Hospitales Universitarios San Roque",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "N° 26, C. Dolores de la Rocha, 35001 Las Palmas de Gran Canaria, Las Palmas, España, Las Palmas, Álava"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
-  ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
-  statsLabel: "Clientas",
-  schemaType: "BeautySalon",
+  heroHeadline: [
+    "Tu Centro de",
+    "Fisioterapia",
+    "en Las Palmas"
+  ],
+  heroDescription: "Centro especializado en rehabilitación y fisioterapia del grupo Hospitales Universitarios San Roque. Nuestro equipo de médicos rehabilitadores, fisioterapeutas y técnicos auxiliares trabaja con dedicación en tu recuperación, combinando técnicas manuales avanzadas con aparatología de calidad. Atención cercana, profesional y orientada a resultados.",
+  specialty: "Rehabilitación Integral",
+  ctaLabel: "Tu Recuperación",
+  ctaHeadline: "¿Listo para iniciar tu recuperación?",
+  ctaDescription: "Solicita tu cita con nuestro equipo de rehabilitación. Te acompañaremos en cada paso de tu proceso de recuperación con atención personalizada y profesional.",
+  statsLabel: "Pacientes",
+  schemaType: "PhysicalTherapy",
   sectionCopy: {
     servicesLabel: "Nuestros Servicios",
     servicesTitle: "Tratamientos especializados",
-    servicesDescription: "Técnicas avanzadas de estética y belleza para realzar tu imagen y cuidar de ti.",
+    servicesDescription: "Soluciones profesionales adaptadas a tus necesidades de salud.",
     processLabel: "Cómo Trabajamos",
-    processTitle: "Tu camino hacia la belleza en 4 pasos",
+    processTitle: "Tu camino hacia la recuperación en 4 pasos",
     processDescription: "Un proceso simple y transparente diseñado para tu comodidad.",
     whyUsLabel: "Por Qué Elegirnos",
-    whyUsTitle: "Tu belleza, nuestra pasión",
-    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para realzar tu belleza natural.",
+    whyUsTitle: "Tu salud, nuestra prioridad",
+    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para cuidar de tu salud.",
     reviewsLabel: "Opiniones",
-    reviewsTitle: "Lo que dicen nuestras clientas",
+    reviewsTitle: "Lo que dicen nuestros pacientes",
     galleryLabel: "Instalaciones",
-    galleryTitle: "Conoce nuestro centro",
-    galleryDescription: "Un espacio diseñado para tu bienestar y relajación",
+    galleryTitle: "Conoce nuestra clínica",
+    galleryDescription: "Un espacio diseñado para tu bienestar y recuperación",
     faqLabel: "FAQ",
     faqTitle: "Preguntas frecuentes",
-    faqDescription: "Resolvemos las dudas más comunes de nuestras clientas.",
+    faqDescription: "Resolvemos las dudas más comunes de nuestros pacientes.",
     locationLabel: "Ubicación",
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
-    teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamTitle: "Profesionales especializados",
+    teamDescription: "Experiencia y dedicación al servicio de tu salud"
+  }
 }
 
 export type Clinic = typeof clinic
